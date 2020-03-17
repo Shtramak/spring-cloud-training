@@ -43,3 +43,6 @@ spring:
           searchPaths: ConfigData //subfolder (Optional)
 ```
 - Add **@EnableConfigServer** on SpringBootApplication class
+
+Spring Cloud Config Server uses an interface EnvironmentRepository to use other sources. 
+In Spring Cloud there's 2 implementations for this interface: Git and Native(local files)

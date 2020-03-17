@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: config-server-client
+  cloud:
+    config:
+      uri: http://localhost:8002

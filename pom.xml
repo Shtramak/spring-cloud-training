@@ -17,8 +17,9 @@
 
     <modules>
         <module>config-server</module>
-        <module>eureka-server</module>
         <module>config-server-client</module>
+        <module>eureka-server</module>
+        <module>discovery-client</module>
     </modules>
 
     <properties>

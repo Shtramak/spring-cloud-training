@@ -10,7 +10,6 @@
 
     <artifactId>config-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>config-server</name>
     <description>Configuration Server example</description>
 
     <dependencies>

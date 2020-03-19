@@ -1,6 +1,11 @@
 server:
   port: 8010
 eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+# Next lines can be used to exclude warnings about single eureka server running from logs
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+
+# With the metadata shown in the example and multiple service instances deployed on localhost, the random value is inserted there to make the instance unique.
+  instance:
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}

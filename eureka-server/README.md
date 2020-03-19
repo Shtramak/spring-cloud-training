@@ -27,3 +27,18 @@ Otherwise list of other EurekaServers should be set:
 	- config server is just another client
 	- implies spring.cloud.config.discovery.enabled=true, eureka.client.serviceUrl.defaultZone=... configured in each app
 	- client makes two network trips to obtain configuration
+
+A vanilla Netflix Eureka instance is registered with an ID that is equal to its host name (that is, there is only one service per host). Spring Cloud Eureka
+ provides a sensible default, which is defined as follows:<br>
+ `${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}}`<br>
+ 
+ **example:** `myhost:myappname:8080`
+ 
+ By using Spring Cloud, you can override this value by providing a unique identifier in eureka.instance.instanceId.<br>
+ Add following configuration to **_application.yml_**:
+```
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+```
+With the metadata shown in the preceding example and multiple service instances deployed on localhost, the random value is inserted there to make the instance unique.

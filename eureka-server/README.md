@@ -1,4 +1,4 @@
-###Service Discovery (Spring Cloud Eureka Server)
+#### Service Discovery (Spring Cloud Eureka Server)
 It's just a regular Spring Boot web application with dependencies and **@EnableEurekaServer** that will turn on Eureka functionality
 
 **Important points:**<br>

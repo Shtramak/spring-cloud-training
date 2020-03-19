@@ -1,14 +1,15 @@
-package com.shtramak.eurekaclient;
+package com.shtramak.ribbonclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@SpringBootApplication
 @EnableDiscoveryClient
-public class MyApplication {
+@SpringBootApplication
+public class RibbonClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyApplication.class, args);
+        SpringApplication.run(RibbonClientApplication.class, args);
     }
+
 }

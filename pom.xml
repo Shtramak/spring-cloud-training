@@ -21,6 +21,7 @@
         <module>config-server-client</module>
         <module>eureka-server</module>
         <module>discovery-client</module>
+        <module>ribbon-client</module>
     </modules>
 
     <properties>

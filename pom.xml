@@ -22,6 +22,7 @@
         <module>eureka-server</module>
         <module>discovery-client</module>
         <module>ribbon-client</module>
+        <module>feign-client</module>
     </modules>
 
     <properties>

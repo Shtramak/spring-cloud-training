@@ -48,7 +48,8 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
+#this words will be applied in case if config server will be unavailable
+words: car,dog,piano,computer
 
 ---
 spring:

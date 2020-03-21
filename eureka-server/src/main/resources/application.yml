@@ -2,9 +2,9 @@ server:
   port: 8010
 eureka:
 # Next lines can be used to exclude warnings about single eureka server running from logs
-#  client:
-#    register-with-eureka: false
-#    fetch-registry: false
+  client:
+    register-with-eureka: false
+    fetch-registry: false
 
 # With the metadata shown in the example and multiple service instances deployed on localhost, the random value is inserted there to make the instance unique.
   instance:

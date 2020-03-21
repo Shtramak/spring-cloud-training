@@ -42,3 +42,11 @@ eureka:
     instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
 ```
 With the metadata shown in the preceding example and multiple service instances deployed on localhost, the random value is inserted there to make the instance unique.
+
+Next lines can be used to exclude warnings about single eureka server running from logs
+```
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+```

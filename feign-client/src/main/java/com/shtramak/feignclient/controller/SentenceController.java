@@ -1,6 +1,6 @@
-package com.shtramak.ribbonclient.controller;
+package com.shtramak.feignclient.controller;
 
-import com.shtramak.ribbonclient.service.SentenceService;
+import com.shtramak.feignclient.service.SentenceService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

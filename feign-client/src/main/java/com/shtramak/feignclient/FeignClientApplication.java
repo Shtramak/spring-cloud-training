@@ -1,4 +1,4 @@
-package com.shtramak.ribbonclient;
+package com.shtramak.feignclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

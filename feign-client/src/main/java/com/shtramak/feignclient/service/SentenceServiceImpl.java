@@ -1,10 +1,10 @@
-package com.shtramak.ribbonclient.service;
+package com.shtramak.feignclient.service;
 
-import com.shtramak.ribbonclient.dao.AdjectiveClient;
-import com.shtramak.ribbonclient.dao.ArticleClient;
-import com.shtramak.ribbonclient.dao.NounClient;
-import com.shtramak.ribbonclient.dao.SubjectClient;
-import com.shtramak.ribbonclient.dao.VerbClient;
+import com.shtramak.feignclient.dao.NounClient;
+import com.shtramak.feignclient.dao.AdjectiveClient;
+import com.shtramak.feignclient.dao.ArticleClient;
+import com.shtramak.feignclient.dao.SubjectClient;
+import com.shtramak.feignclient.dao.VerbClient;
 import org.springframework.stereotype.Service;
 
 @Service

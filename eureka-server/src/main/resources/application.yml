@@ -9,3 +9,6 @@ eureka:
 # With the metadata shown in the example and multiple service instances deployed on localhost, the random value is inserted there to make the instance unique.
   instance:
     instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+# This parameter needs for eureka to allow unregister services
+  server:
+    enable-self-preservation: false

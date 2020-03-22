@@ -1,4 +1,4 @@
-package com.shtramak.ribbonclient.config;
+package com.shtramak.hystrixclient.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;

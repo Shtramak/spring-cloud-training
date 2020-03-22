@@ -23,6 +23,7 @@
         <module>discovery-client</module>
         <module>ribbon-client</module>
         <module>feign-client</module>
+        <module>hystrix-feign-client</module>
     </modules>
 
     <properties>

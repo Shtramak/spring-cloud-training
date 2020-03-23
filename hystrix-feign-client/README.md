@@ -52,10 +52,10 @@ Failure / Recovery behavior highly customizable
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
 </dependency>
-<<dependency>
+<dependency>
      <groupId>org.springframework.boot</groupId>
      <artifactId>spring-boot-starter-actuator</artifactId>
- </dependency>
+</dependency>
 ```
 - Enable Hystrix Dashboard within a configuration class:
 ```java

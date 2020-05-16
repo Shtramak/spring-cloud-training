@@ -25,6 +25,7 @@
         <module>feign-client</module>
         <module>hystrix-feign-client</module>
         <module>cloud-bus</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>

@@ -39,4 +39,4 @@ Spring Cloud Bus
 - Provides simple way to notify clients to config changes
 
 Spring Cloud Netflix Eureka
-- Service Discovery - allows applications to register themselve as clients
+- Service Discovery - allows applications to register themselves as clients
